@@ -1,17 +1,29 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-secondary">
+    
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <p1 smg="curso p1 a p3"  />
+    <color/>
+    <gym/>
+    <computado/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import p1 from './components/p1.vue';
+import color from './components/color.vue';
+import gym from './components/gym.vue';
+import computado from './components/computado.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    p1,
+    color,
+    gym,
+    computado
   }
 }
 </script>

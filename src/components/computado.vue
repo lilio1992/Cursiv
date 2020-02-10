@@ -27,6 +27,7 @@ export default {
           return this.mensaje.split('').reverse().join('');
       },
       color(){
+          color
           return{
               'bg-success' :this.contador <=10,
               'bg-secondary' :this.contador > 10 && this.contador <= 20,

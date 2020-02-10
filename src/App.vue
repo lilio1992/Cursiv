@@ -1,12 +1,12 @@
 <template>
   <div id="app" class="bg-secondary">
-    
+
     <img alt="Vue logo" src="./assets/logo.png">
     
     <p1 smg="curso p1 a p3"  />
     <color/>
     <gym/>
-    <computado/>
+    <cpadre/>
   </div>
 </template>
 
@@ -15,7 +15,10 @@
 import p1 from './components/p1.vue';
 import color from './components/color.vue';
 import gym from './components/gym.vue';
-import computado from './components/computado.vue';
+import cpadre from './components/cpadre.vue';
+
+
+
 
 export default {
   name: 'app',
@@ -23,7 +26,7 @@ export default {
     p1,
     color,
     gym,
-    computado
+    cpadre
   }
 }
 </script>
